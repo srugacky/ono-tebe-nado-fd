@@ -4,7 +4,7 @@
   box-sizing: border-box;
   align-items: center;
   height: 293px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
   padding: 92px 50px 96px;
@@ -60,7 +60,7 @@
 }
 
 .section__title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -93,7 +93,7 @@
 .cover__title {
   position: relative;
   z-index: 1;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   width: 100%;
   font-weight: bold;
   font-size: 100px;
@@ -202,7 +202,7 @@
 }
 
 .card__title {
-  font-weight: bold;;
+  font-weight: bold;
   font-size: 22px;
   line-height: 120%;
   margin-top: 48px;
@@ -278,8 +278,8 @@
   justify-content: space-between;
   height: 180px;
   padding-right: 50px;
-  padding-left: 50px; 
-  font-family: 'Raleway', sans-serif;
+  padding-left: 50px;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
 }
