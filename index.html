@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link_active"> главная </a>
+            <a class="header__link link_active" href="#0"> главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0"> посмотреть лоты </a>
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0"> об аукционе </a>
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -31,42 +31,46 @@
           alt="Черный логотип сайта"
         />
       </a>
-      <address class="header__address address">
-        <ul class="address__list">
-          <li class="address__list-item">
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="address__list-item">
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="address__list-item">
-            наб. Принсенграхт 263- 265, Амстердам
-          </li>
-        </ul>
+      <address class="header__address address"> 
+        <a class="address-link" href="tel:+99995555555">
+          +9 999 555 5555
+        </a>
+        <a class="address-link" href="mailto:info@sobaka.ge">
+          info@sobaka.ge
+        </a>
+        <p class="address__list-item">
+          наб. Принсенграхт 263- 265, Амстердам
+        </p>
       </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text_left aligned-text"> Оно </span>
-          <span class="aligned-text_center aligned-text"> тебе </span>
-          <span class="aligned-text_right aligned-text"> надо </span>
+          <span class="aligned-text_left aligned-text">
+            Он<span class="last-letter-no-spacing">о</span>
+          </span>
+          <span class="aligned-text_center aligned-text">
+            теб<span class="last-letter-no-spacing">е</span>
+          </span>
+          <span class="aligned-text_right aligned-text">
+            над<span class="last-letter-no-spacing">о</span>
+          </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading section__title">Лоты</h2>
         <ul class="lots__cards-list">
-          <li class="card_type_film lots__cards-list-item">
-            <div class="overlay"></div>
+          <li class="lots__cards-list-item">  
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card_type_film card">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -78,10 +82,10 @@
               </article>
             </a>
           </li>
-          <li class="card_type_book lots__cards-list-item">
-            <div class="overlay"></div>
+          <li class="lots__cards-list-item"> 
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card_type_book card">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -96,10 +100,10 @@
               </article>
             </a>
           </li>
-          <li class="card_type_picture lots__cards-list-item">
-            <div class="overlay"></div>
+          <li class="lots__cards-list-item"> 
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card_type_picture card">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -148,22 +152,20 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <ul class="address__list">
-          <li class="address__list-item">
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="address__list-item">
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="address__list-item">
-            наб. Принсенграхт 263- 265, Амстердам
-          </li>
-        </ul>
+        <a class="address-link" href="tel:+99995555555">
+          +9 999 555 5555
+        </a>
+        <a class="address-link" href="mailto:info@sobaka.ge">
+          info@sobaka.ge
+        </a>
+        <p class="address__list-item">
+          наб. Принсенграхт 263-265, Амстердам
+        </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active"> главная </a>
+            <a class="footer__menu-link link_active" href="#0"> главная </a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#0"> посмотреть лоты </a>
@@ -180,7 +182,7 @@
               class="footer__social-icon"
               src="./images/yt.svg"
               alt="Логотип YouTube"
-            />
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -189,7 +191,7 @@
               class="footer__social-icon"
               src="./images/vk.svg"
               alt="Логотип Вконтакте"
-            />
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -198,7 +200,7 @@
               class="footer__social-icon"
               src="./images/pinterest.svg"
               alt="Логотип Pinterest"
-            />
+            >
           </a>
         </li>
       </ul>
